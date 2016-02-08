@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="skillbooting.fragments.CommunicatingFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical">
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FIRST"
+            android:textColor="#FFF"
+            android:background="@color/colorPrimaryDark"
+            android:padding="10dp"
+            android:textSize="21sp"
+            android:layout_marginBottom="30dp"
+            android:layout_gravity="center"
+            android:onClick="onButtonClicked"
+            android:id="@+id/first_button"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SECOND"
+            android:textColor="#FFF"
+            android:background="@color/colorPrimaryDark"
+            android:padding="10dp"
+            android:textSize="21sp"
+            android:layout_gravity="center"
+            android:onClick="onButtonClicked"
+            android:layout_marginBottom="30dp"
+            android:id="@+id/second_button"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="THIRD"
+            android:textColor="#FFF"
+            android:background="@color/colorPrimaryDark"
+            android:padding="10dp"
+            android:textSize="21sp"
+            android:layout_gravity="center"
+            android:onClick="onButtonClicked"
+            android:id="@+id/third_button"
+            />
+
+    </LinearLayout>
+</RelativeLayout>
